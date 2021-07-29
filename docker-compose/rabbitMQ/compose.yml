@@ -2,16 +2,18 @@ services:
   rabbitmq:
     image: 'rabbitmq:3-management'
     container_name: 'rabbitmq'
-    volumes:
-            - ./.docker/rabbitmq/etc/:/etc/rabbitmq/
-            - ./.docker/rabbitmq/data/:/var/lib/rabbitmq/
-            - ./.docker/rabbitmq/logs/:/var/log/rabbitmq/
+    #volumes:
+            #- ./.docker/rabbitmq/etc/:/etc/rabbitmq/
+            #- ./.docker/rabbitmq/data/:/var/lib/rabbitmq/
+            #- ./.docker/rabbitmq/logs/:/var/log/rabbitmq/
     ports:
       # The standard AMQP protocol port
       - '5672:5672'
       # HTTP management UI
       - '15672:15672'
     environment:
+      #RABBITMQ_DEFAULT_USER: "guest"
+      #RABBITMQ_DEFAULT_PASS: "guest"
       default_user: "guest"
       default_pass: "guest"
     networks:
