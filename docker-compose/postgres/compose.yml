@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: 123456!@
       PGDATA: /data/postgres
     volumes:
-       - /.docker/postgres:/data/postgres
+       - ./docker/postgres:/data/postgres
     ports:
       - "5432:5432"
     networks:
