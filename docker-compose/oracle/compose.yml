@@ -1,0 +1,26 @@
+# for MAC M1
+# Install colima `brew install colima`
+# Run colima start --arch x86_64 --memory 4
+# Start container as usual
+# admin user = system
+services:
+  oracle-server:
+    #platform: linux/amd64 # use for linux and mac . comment this line if you run on window
+    image: "gvenzl/oracle-xe:latest"
+    container_name: "oracle-server"
+    volumes:
+      - ./.docker/oracle/:/opt/oracle/oradata
+    ports:
+      - 1521:1521
+
+    environment:
+      ORACLE_DATABASE: "demo"
+      ORACLE_PASSWORD: "yourStrong(!)Password"
+      APP_USER: "sa"
+      APP_USER_PASSWORD: "yourStrong(!)Password"
+    networks:
+      - network
+networks:
+  # Declare our private network.  We must declare one for the magic
+  # Docker DNS to work, but otherwise its default settings are fine.
+  network: {}

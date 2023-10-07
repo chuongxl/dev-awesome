@@ -1,16 +1,16 @@
 services:
-  mysql-server:
-    platform : linux/amd64 # use for linux and mac . comment this line if you run on window
-    image: 'bitnami/mariadb:latest'
-    container_name: 'mariadb'
+  mariadb-server:
+    platform: linux/amd64 # use for linux and mac . comment this line if you run on window
+    image: "bitnami/mariadb:latest"
+    container_name: "mariadb"
     volumes:
-            - ./.docker/mariadb/datadir/:/bitnami/mariadb
+      - ./.docker/mariadb/datadir/:/bitnami/mariadb
     ports:
       - 3306:3306
-      
+
     environment:
       MARIADB_ROOT_PASSWORD: "yourStrong(!)Password"
-      MARIADB_USER : portal
+      MARIADB_USER: portal
       MARIADB_PASSWORD: yourStrong(!)Password
       MARIADB_DATABASE: portal
     networks:
