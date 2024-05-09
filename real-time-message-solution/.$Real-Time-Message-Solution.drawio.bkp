@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-05-09T15:56:59.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="YrDDXv6o4OKVzp-RUn3c" version="24.1.0" type="device" pages="2">
+<mxfile host="Electron" modified="2024-05-09T15:56:11.255Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="cDWNRZvAcfdZGvRHzjyc" version="24.1.0" type="device" pages="2">
   <diagram name="SERVERLESS-AWSAPPSYNC" id="4mn1HNEd6mEpjljR2jXi">
     <mxGraphModel dx="1193" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -328,7 +328,7 @@
           <mxGeometry x="640" y="730" width="450" height="160" as="geometry" />
         </mxCell>
         <mxCell id="99Fime3WiOcGHnvoUHYQ-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Cons:&lt;/h1&gt;&lt;ul style=&quot;margin: 0px; padding: 0px 0px 0px 25px; caret-color: rgb(22, 25, 31); color: rgb(22, 25, 31); font-family: &amp;quot;Amazon Ember&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px;&quot; class=&quot;itemizedlist&quot;&gt;&lt;li style=&quot;font-size: 1em; line-height: 1.5em; padding-left: 5px; padding-top: 5px;&quot; class=&quot;listitem&quot;&gt;&lt;p style=&quot;font-size: 1em; line-height: 1.5em; margin: 0px; padding: 0px;&quot;&gt;Require more setup to web socket&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 1em; line-height: 1.5em; padding-left: 5px; padding-top: 5px;&quot; class=&quot;listitem&quot;&gt;&lt;p style=&quot;font-size: 1em; line-height: 1.5em; margin: 0px; padding: 0px;&quot;&gt;Integrate with other service via only HTTP&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="642" y="910" width="450" height="160" as="geometry" />
+          <mxGeometry x="641" y="910" width="450" height="160" as="geometry" />
         </mxCell>
         <UserObject label="https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html" link="https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html" id="1MkwR5T5dZJrNDE1l33b-1">
           <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
